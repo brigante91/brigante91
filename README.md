@@ -1,51 +1,99 @@
-<!-- HEADER CYBER-MINIMAL -->
-<h1 align="center">🧬 Gianluca • Offensive Security & Cyber Research</h1>
-<p align="center">
-  <sub>Minimal. Silenzioso. Ostile solo quando serve.</sub>
-</p>
+# ⛓️‍💥 Red Team Operator – Repository Overview
+
+Benvenuto nel repository progettato con un’estetica **cyber-minimal** ispirata alle operazioni **Red Team**.  
+Questo spazio raccoglie strumenti, configurazioni e procedure operative pensate per la sicurezza offensiva moderna.
 
 ---
 
-<!-- TOP BADGES -->
-<p align="center">
-  <!-- TODO: sostituisci i link con i tuoi -->
-  <a href="https://github.com/brigante91"><img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=flat&logo=github" /></a>
-  <!--a href="https://www.linkedin.com/in/TUO-LINK"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a-->
-  <!--a href="mailto:TUA-EMAIL"><img src="https://img.shields.io/badge/Email-111111?style=flat&logo=protonmail&logoColor=white" /></a-->
-</p>
+## 🛰️ Mission Statement
+Repository nato per organizzare in modo pulito ed efficace:
+- Script operativi  
+- Payload & exploit PoC  
+- Configurazioni da campo  
+- Automazioni per pentest & red teaming  
+- Documentazione tecnica essenziale  
+
+Design minimale, funzionale, orientato alla produttività e alla leggibilità.
 
 ---
 
-## 🛰 Chi sono
+## 🧩 Struttura del Repository
 
-- 🕵️‍♂️ **Offensive Security Specialist** (pentest, red teaming, bug bounty)
-- 📡 Appassionato di **infrastrutture complesse**, AD lab, CTF & Hack The Box
-- 🧪 Sperimentatore compulsivo di **tooling**, automazioni e reportistica tecnica
-
-> _“Se posso automatizzarlo, lo automatizzo. Se non posso, capisco come mai.”_
-
----
-
-## 🔧 Stack & arsenale
-
-### 🔹 Linguaggi & scripting
-`Python` • `Bash` • `PowerShell` • `JavaScript` • `SQL`
-
-### 🔹 Offensive & Infra
-`Burp Suite` • `Nmap` • `Nessus` • `BloodHound` • `Certipy`  
-`Impacket` • `Responder` • `CrackMapExec/NetExec` • `Hashcat`  
-
-### 🔹 Dev, automazione & lab
-`Git` • `Docker` • `Ansible` • `Terraform`  
-`Proxmox` • `pfSense` • `WireGuard` • `VirtualBox`  
+```
+/src            → codice sorgente, tool, script operativi  
+/config         → configurazioni, payload, templates  
+/docs           → documentazione tecnica, cheat sheet  
+/screenshots    → PoC, catture, evidenze tecniche  
+/reports        → output, risultati, materiali esportati  
+```
 
 ---
 
-## 📂 Cosa trovi qui
+## ⚙️ Setup & Requirements
 
-```text
-/sys
- ├─ /labs        → Progetti di laboratorio, PoC e ambienti vulnerabili
- ├─ /tooling     → Script per automazione (report, parsing, recon, ecc.)
- ├─ /ctf         → Writeup selezionati, snippet e note su challenge/HTB
- └─ /configs     → Dotfiles, setup per workstation da pentest
+### Prerequisiti (esempio)
+- Python 3.10+
+- pipx / uv / virtualenv
+- Accesso a strumenti da red team:
+  - Burp Suite / ZAP  
+  - Nmap / Masscan  
+  - Impacket  
+  - BloodHound  
+  - CrackMapExec / NetExec  
+
+Installazione ambiente:
+
+```bash
+uv sync
+uv run main.py
+```
+
+---
+
+## 🛠️ Funzionalità Principali
+
+- Automazioni operative per attività Red Team  
+- Template pronti per PoC e reportistica  
+- Script modulari e riutilizzabili  
+- Supporto per integrazione in pipeline CI/CD  
+- Stile cyber-minimal per uso professionale
+
+---
+
+## 📦 Esempi d'Uso
+
+### Esecuzione Tool
+```bash
+python3 tool.py --target <IP> --mode stealth
+```
+
+### Creazione di un nuovo payload
+```bash
+./generate_payload.sh -o payload.bin -m evasive
+```
+
+---
+
+## 🧭 Filosofia “Red Team Operator”
+- Minimalismo = velocità  
+- Chiarezza = efficacia operativa  
+- Struttura pulita = pensiero pulito  
+- Documentazione essenziale = meno rumore, più risultati  
+
+---
+
+## 🛡️ Note Operative
+- Questo repository è pensato per **professionisti della sicurezza**.  
+- Evitare un uso non autorizzato dei tool.  
+- Tutte le procedure devono rispettare il quadro normativo vigente.
+
+---
+
+## 📜 Licenza
+Questo progetto è rilasciato sotto **MIT License** (modificabile su richiesta).
+
+---
+
+## 🧨 Credits
+Tema grafico: **Cyber-Minimal / Red Team Operator Edition**  
+Autore: *Gianluca Leo*  
